@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6510787C18898A82002C1A8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6510787B18898A82002C1A8E /* Default-568h@2x.png */; };
+		6510788D188A2B6A002C1A8E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6510788C188A2B6A002C1A8E /* MainStoryboard_iPhone.storyboard */; };
+		65107893188AD690002C1A8E /* EJCEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65107892188AD690002C1A8E /* EJCEntryCell.m */; };
+		65107896188BFBB3002C1A8E /* NSDate+FormattedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 65107895188BFBB1002C1A8E /* NSDate+FormattedString.m */; };
+		651078A0188C211C002C1A8E /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 6510789F188C211C002C1A8E /* warning.png */; };
+		651078A3188C2626002C1A8E /* EJCData.m in Sources */ = {isa = PBXBuildFile; fileRef = 651078A2188C2626002C1A8E /* EJCData.m */; };
+		65139B3E188C5C3100517979 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65139B3D188C5C3100517979 /* MainStoryboard_iPad.storyboard */; };
+		6529AC0717FB9F0D00A3A05C /* AboutEJC.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529AC0617FB9F0D00A3A05C /* AboutEJC.png */; };
+		6529AC0D17FBB19900A3A05C /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 6529AC0C17FBB19900A3A05C /* About.png */; };
+		653FDF8C18712D8A00694C9E /* EasyJavaCompiler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 653FDF8A18712D8A00694C9E /* EasyJavaCompiler.xcdatamodeld */; };
+		653FDF9018712E5A00694C9E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653FDF8F18712E5A00694C9E /* CoreData.framework */; };
+		657D175717FC75F70061458D /* cog_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 657D175617FC75F70061458D /* cog_02@2x.png */; };
+		657D175917FC76030061458D /* page_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 657D175817FC76030061458D /* page_empty@2x.png */; };
+		657D175B17FC766B0061458D /* pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 657D175A17FC766B0061458D /* pencil@2x.png */; };
+		657D175F17FC79A10061458D /* cog_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 657D175C17FC79A10061458D /* cog_02.png */; };
+		657D176017FC79A10061458D /* page_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 657D175D17FC79A10061458D /* page_empty.png */; };
+		657D176117FC79A10061458D /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 657D175E17FC79A10061458D /* pencil.png */; };
+		657D176517FC7E080061458D /* letter_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 657D176417FC7E080061458D /* letter_open.png */; };
+		657D176717FCC8630061458D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657D176617FCC8630061458D /* MessageUI.framework */; };
+		659E3B9E187CF6A9002A0F96 /* EJCEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E3B9D187CF6A9002A0F96 /* EJCEntry.m */; };
+		659E3BA1187CFE98002A0F96 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 659E3BA0187CFE97002A0F96 /* Settings.bundle */; };
+		659F7A4817F9F28C00FC1484 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A4717F9F28C00FC1484 /* 57x57.png */; };
+		659F7A4917F9F2A000FC1484 /* EJC FX 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A4317F9EA7D00FC1484 /* EJC FX 114x114.png */; };
+		659F7A4E17F9F49400FC1484 /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A4D17F9F49400FC1484 /* 72x72.png */; };
+		659F7A5017F9F4A200FC1484 /* EJC FX 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A4F17F9F4A200FC1484 /* EJC FX 144x144.png */; };
+		659F7A5217F9F4EE00FC1484 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A5117F9F4EE00FC1484 /* Default-Portrait~ipad.png */; };
+		659F7A5417F9F51100FC1484 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A5317F9F51100FC1484 /* Default-Portrait@2x~ipad.png */; };
+		659F7A5717F9FC3D00FC1484 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A5617F9FC3D00FC1484 /* Default-Landscape~ipad.png */; };
+		659F7A5917F9FC5200FC1484 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 659F7A5817F9FC5200FC1484 /* Default-Landscape@2x~ipad.png */; };
+		65A94532189EF9EB001B6782 /* NSData+CocoaDevUsersAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A94531189EF9EA001B6782 /* NSData+CocoaDevUsersAdditions.m */; };
+		65A94537189F41FE001B6782 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A94536189F41FD001B6782 /* libz.dylib */; };
+		65B0E62118830DDB0014F2C5 /* EJCDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B0E62018830DDB0014F2C5 /* EJCDocument.m */; };
+		65B0E62A188338870014F2C5 /* EJCConflictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B0E629188338870014F2C5 /* EJCConflictViewController.m */; };
+		65B0E62D188339BC0014F2C5 /* EJCConflictEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B0E62C188339BC0014F2C5 /* EJCConflictEntry.m */; };
+		65D8619318050EA6009EC825 /* EJCSendEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D8619218050EA6009EC825 /* EJCSendEmailViewController.m */; };
+		65F865EF1870979B0059A628 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F865EE1870979B0059A628 /* DocumentViewController.m */; };
+		65FCCEE917F88876007FC7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FCCEE817F88876007FC7E8 /* UIKit.framework */; };
+		65FCCEEB17F88876007FC7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FCCEEA17F88876007FC7E8 /* Foundation.framework */; };
+		65FCCEED17F88876007FC7E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FCCEEC17F88876007FC7E8 /* CoreGraphics.framework */; };
+		65FCCEF517F88876007FC7E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCCEF417F88876007FC7E8 /* main.m */; };
+		65FCCEF917F88876007FC7E8 /* EJCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCCEF817F88876007FC7E8 /* EJCAppDelegate.m */; };
+		65FCCEFB17F88876007FC7E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FCCEFA17F88876007FC7E8 /* Default.png */; };
+		65FCCEFD17F88876007FC7E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FCCEFC17F88876007FC7E8 /* Default@2x.png */; };
+		65FCCF0817F88876007FC7E8 /* EJCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCCF0717F88876007FC7E8 /* EJCViewController.m */; };
+		65FCCF1017F88876007FC7E8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FCCF0F17F88876007FC7E8 /* SenTestingKit.framework */; };
+		65FCCF1117F88876007FC7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FCCEE817F88876007FC7E8 /* UIKit.framework */; };
+		65FCCF1217F88876007FC7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FCCEEA17F88876007FC7E8 /* Foundation.framework */; };
+		65FCCF1A17F88876007FC7E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65FCCF1817F88876007FC7E8 /* InfoPlist.strings */; };
+		65FCCF1D17F88876007FC7E8 /* Easy_Java_CompilerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCCF1C17F88876007FC7E8 /* Easy_Java_CompilerTests.m */; };
+		65FF4CAD1809FE560074CAB2 /* EJCCompilerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FF4CAC1809FE560074CAB2 /* EJCCompilerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FCCF1317F88876007FC7E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FCCEDD17F88876007FC7E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FCCEE417F88876007FC7E8;
+			remoteInfo = Easy_Java_Compiler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6510787B18898A82002C1A8E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6510788C188A2B6A002C1A8E /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		65107891188AD68F002C1A8E /* EJCEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCEntryCell.h; sourceTree = "<group>"; };
+		65107892188AD690002C1A8E /* EJCEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCEntryCell.m; sourceTree = "<group>"; };
+		65107894188BFBB1002C1A8E /* NSDate+FormattedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedString.h"; sourceTree = "<group>"; };
+		65107895188BFBB1002C1A8E /* NSDate+FormattedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedString.m"; sourceTree = "<group>"; };
+		6510789F188C211C002C1A8E /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		651078A1188C2626002C1A8E /* EJCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCData.h; sourceTree = "<group>"; };
+		651078A2188C2626002C1A8E /* EJCData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCData.m; sourceTree = "<group>"; };
+		65139B3D188C5C3100517979 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6529AC0617FB9F0D00A3A05C /* AboutEJC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AboutEJC.png; sourceTree = "<group>"; };
+		6529AC0C17FBB19900A3A05C /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		653FDF8B18712D8A00694C9E /* EasyJavaCompiler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyJavaCompiler.xcdatamodel; sourceTree = "<group>"; };
+		653FDF8F18712E5A00694C9E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		653FDF91187130C400694C9E /* EasyJavaCompiler 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EasyJavaCompiler 2.xcdatamodel"; sourceTree = "<group>"; };
+		657D175617FC75F70061458D /* cog_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog_02@2x.png"; sourceTree = "<group>"; };
+		657D175817FC76030061458D /* page_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_empty@2x.png"; sourceTree = "<group>"; };
+		657D175A17FC766B0061458D /* pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil@2x.png"; sourceTree = SOURCE_ROOT; };
+		657D175C17FC79A10061458D /* cog_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog_02.png; sourceTree = "<group>"; };
+		657D175D17FC79A10061458D /* page_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_empty.png; sourceTree = "<group>"; };
+		657D175E17FC79A10061458D /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		657D176417FC7E080061458D /* letter_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_open.png; sourceTree = "<group>"; };
+		657D176617FCC8630061458D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		659E3B9C187CF6A9002A0F96 /* EJCEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCEntry.h; sourceTree = "<group>"; };
+		659E3B9D187CF6A9002A0F96 /* EJCEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCEntry.m; sourceTree = "<group>"; };
+		659E3BA0187CFE97002A0F96 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		659F7A4317F9EA7D00FC1484 /* EJC FX 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EJC FX 114x114.png"; sourceTree = "<group>"; };
+		659F7A4717F9F28C00FC1484 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		659F7A4D17F9F49400FC1484 /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
+		659F7A4F17F9F4A200FC1484 /* EJC FX 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EJC FX 144x144.png"; sourceTree = "<group>"; };
+		659F7A5117F9F4EE00FC1484 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		659F7A5317F9F51100FC1484 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		659F7A5617F9FC3D00FC1484 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		659F7A5817F9FC5200FC1484 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		65A94530189EF9EA001B6782 /* NSData+CocoaDevUsersAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CocoaDevUsersAdditions.h"; sourceTree = "<group>"; };
+		65A94531189EF9EA001B6782 /* NSData+CocoaDevUsersAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CocoaDevUsersAdditions.m"; sourceTree = "<group>"; };
+		65A94536189F41FD001B6782 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		65B0E61F18830DDB0014F2C5 /* EJCDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCDocument.h; sourceTree = "<group>"; };
+		65B0E62018830DDB0014F2C5 /* EJCDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCDocument.m; sourceTree = "<group>"; };
+		65B0E628188338870014F2C5 /* EJCConflictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCConflictViewController.h; sourceTree = "<group>"; };
+		65B0E629188338870014F2C5 /* EJCConflictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCConflictViewController.m; sourceTree = "<group>"; };
+		65B0E62B188339BC0014F2C5 /* EJCConflictEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCConflictEntry.h; sourceTree = "<group>"; };
+		65B0E62C188339BC0014F2C5 /* EJCConflictEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCConflictEntry.m; sourceTree = "<group>"; };
+		65D8619118050EA6009EC825 /* EJCSendEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCSendEmailViewController.h; sourceTree = "<group>"; };
+		65D8619218050EA6009EC825 /* EJCSendEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCSendEmailViewController.m; sourceTree = "<group>"; };
+		65F865ED1870979B0059A628 /* DocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		65F865EE1870979B0059A628 /* DocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		65F865F01870C3E50059A628 /* EasyJavaCompiler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EasyJavaCompiler.entitlements; sourceTree = SOURCE_ROOT; };
+		65FCCEE517F88876007FC7E8 /* EasyJavaCompiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyJavaCompiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FCCEE817F88876007FC7E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65FCCEEA17F88876007FC7E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65FCCEEC17F88876007FC7E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65FCCEF017F88876007FC7E8 /* EasyJavaCompiler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyJavaCompiler-Info.plist"; sourceTree = "<group>"; };
+		65FCCEF417F88876007FC7E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65FCCEF617F88876007FC7E8 /* EasyJavaCompiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyJavaCompiler-Prefix.pch"; sourceTree = "<group>"; };
+		65FCCEF717F88876007FC7E8 /* EJCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJCAppDelegate.h; sourceTree = "<group>"; };
+		65FCCEF817F88876007FC7E8 /* EJCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJCAppDelegate.m; sourceTree = "<group>"; };
+		65FCCEFA17F88876007FC7E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		65FCCEFC17F88876007FC7E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		65FCCEFE17F88876007FC7E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65FCCF0617F88876007FC7E8 /* EJCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJCViewController.h; sourceTree = "<group>"; };
+		65FCCF0717F88876007FC7E8 /* EJCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJCViewController.m; sourceTree = "<group>"; };
+		65FCCF0E17F88876007FC7E8 /* EasyJavaCompilerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyJavaCompilerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FCCF0F17F88876007FC7E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		65FCCF1717F88876007FC7E8 /* EasyJavaCompilerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyJavaCompilerTests-Info.plist"; sourceTree = "<group>"; };
+		65FCCF1917F88876007FC7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65FCCF1B17F88876007FC7E8 /* Easy_Java_CompilerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Easy_Java_CompilerTests.h; sourceTree = "<group>"; };
+		65FCCF1C17F88876007FC7E8 /* Easy_Java_CompilerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_Java_CompilerTests.m; sourceTree = "<group>"; };
+		65FF4CAB1809FE560074CAB2 /* EJCCompilerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJCCompilerViewController.h; sourceTree = "<group>"; };
+		65FF4CAC1809FE560074CAB2 /* EJCCompilerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJCCompilerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FCCEE217F88876007FC7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A94537189F41FE001B6782 /* libz.dylib in Frameworks */,
+				653FDF9018712E5A00694C9E /* CoreData.framework in Frameworks */,
+				657D176717FCC8630061458D /* MessageUI.framework in Frameworks */,
+				65FCCEE917F88876007FC7E8 /* UIKit.framework in Frameworks */,
+				65FCCEEB17F88876007FC7E8 /* Foundation.framework in Frameworks */,
+				65FCCEED17F88876007FC7E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FCCF0A17F88876007FC7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FCCF1017F88876007FC7E8 /* SenTestingKit.framework in Frameworks */,
+				65FCCF1117F88876007FC7E8 /* UIKit.framework in Frameworks */,
+				65FCCF1217F88876007FC7E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65107897188BFBB9002C1A8E /* NSDate+FormattedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				65107894188BFBB1002C1A8E /* NSDate+FormattedString.h */,
+				65107895188BFBB1002C1A8E /* NSDate+FormattedString.m */,
+			);
+			name = "NSDate+FormattedStrings";
+			sourceTree = "<group>";
+		};
+		653FDF92187130E600694C9E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				653FDF8A18712D8A00694C9E /* EasyJavaCompiler.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		659E3B9F187CF6F3002A0F96 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				65D8619118050EA6009EC825 /* EJCSendEmailViewController.h */,
+				65D8619218050EA6009EC825 /* EJCSendEmailViewController.m */,
+				65FF4CAB1809FE560074CAB2 /* EJCCompilerViewController.h */,
+				65FF4CAC1809FE560074CAB2 /* EJCCompilerViewController.m */,
+				65F865ED1870979B0059A628 /* DocumentViewController.h */,
+				65F865EE1870979B0059A628 /* DocumentViewController.m */,
+				659E3B9C187CF6A9002A0F96 /* EJCEntry.h */,
+				659E3B9D187CF6A9002A0F96 /* EJCEntry.m */,
+				65B0E628188338870014F2C5 /* EJCConflictViewController.h */,
+				65B0E629188338870014F2C5 /* EJCConflictViewController.m */,
+				65B0E62B188339BC0014F2C5 /* EJCConflictEntry.h */,
+				65B0E62C188339BC0014F2C5 /* EJCConflictEntry.m */,
+				65107891188AD68F002C1A8E /* EJCEntryCell.h */,
+				65107892188AD690002C1A8E /* EJCEntryCell.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		65A94533189EF9FC001B6782 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				65A94530189EF9EA001B6782 /* NSData+CocoaDevUsersAdditions.h */,
+				65A94531189EF9EA001B6782 /* NSData+CocoaDevUsersAdditions.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		65B0E618188303E80014F2C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				651078A1188C2626002C1A8E /* EJCData.h */,
+				651078A2188C2626002C1A8E /* EJCData.m */,
+				65B0E61F18830DDB0014F2C5 /* EJCDocument.h */,
+				65B0E62018830DDB0014F2C5 /* EJCDocument.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		65B0E62E188345B50014F2C5 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				6510787B18898A82002C1A8E /* Default-568h@2x.png */,
+				6510789F188C211C002C1A8E /* warning.png */,
+				6529AC0C17FBB19900A3A05C /* About.png */,
+				657D176417FC7E080061458D /* letter_open.png */,
+				657D175C17FC79A10061458D /* cog_02.png */,
+				657D175D17FC79A10061458D /* page_empty.png */,
+				657D175E17FC79A10061458D /* pencil.png */,
+				659F7A5817F9FC5200FC1484 /* Default-Landscape@2x~ipad.png */,
+				6529AC0617FB9F0D00A3A05C /* AboutEJC.png */,
+				659F7A5617F9FC3D00FC1484 /* Default-Landscape~ipad.png */,
+				659F7A5317F9F51100FC1484 /* Default-Portrait@2x~ipad.png */,
+				657D175817FC76030061458D /* page_empty@2x.png */,
+				657D175617FC75F70061458D /* cog_02@2x.png */,
+				659F7A5117F9F4EE00FC1484 /* Default-Portrait~ipad.png */,
+				659F7A4F17F9F4A200FC1484 /* EJC FX 144x144.png */,
+				657D175A17FC766B0061458D /* pencil@2x.png */,
+				659F7A4D17F9F49400FC1484 /* 72x72.png */,
+				659F7A4717F9F28C00FC1484 /* 57x57.png */,
+				659F7A4317F9EA7D00FC1484 /* EJC FX 114x114.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		65FCCEDC17F88876007FC7E8 = {
+			isa = PBXGroup;
+			children = (
+				65B0E62E188345B50014F2C5 /* Icons */,
+				65FCCEEE17F88876007FC7E8 /* EasyJavaCompiler */,
+				65FCCF1517F88876007FC7E8 /* EasyJavaCompilerTests */,
+				65FCCEE717F88876007FC7E8 /* Frameworks */,
+				65FCCEE617F88876007FC7E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65FCCEE617F88876007FC7E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FCCEE517F88876007FC7E8 /* EasyJavaCompiler.app */,
+				65FCCF0E17F88876007FC7E8 /* EasyJavaCompilerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FCCEE717F88876007FC7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A94536189F41FD001B6782 /* libz.dylib */,
+				653FDF8F18712E5A00694C9E /* CoreData.framework */,
+				657D176617FCC8630061458D /* MessageUI.framework */,
+				65FCCEE817F88876007FC7E8 /* UIKit.framework */,
+				65FCCEEA17F88876007FC7E8 /* Foundation.framework */,
+				65FCCEEC17F88876007FC7E8 /* CoreGraphics.framework */,
+				65FCCF0F17F88876007FC7E8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65FCCEEE17F88876007FC7E8 /* EasyJavaCompiler */ = {
+			isa = PBXGroup;
+			children = (
+				65F865F01870C3E50059A628 /* EasyJavaCompiler.entitlements */,
+				65FCCEF717F88876007FC7E8 /* EJCAppDelegate.h */,
+				65FCCEF817F88876007FC7E8 /* EJCAppDelegate.m */,
+				6510788C188A2B6A002C1A8E /* MainStoryboard_iPhone.storyboard */,
+				65139B3D188C5C3100517979 /* MainStoryboard_iPad.storyboard */,
+				65FCCF0617F88876007FC7E8 /* EJCViewController.h */,
+				65FCCF0717F88876007FC7E8 /* EJCViewController.m */,
+				65A94533189EF9FC001B6782 /* Helpers */,
+				65107897188BFBB9002C1A8E /* NSDate+FormattedStrings */,
+				65B0E618188303E80014F2C5 /* Model */,
+				659E3B9F187CF6F3002A0F96 /* GUI */,
+				65FCCEEF17F88876007FC7E8 /* Supporting Files */,
+				653FDF92187130E600694C9E /* Core Data */,
+			);
+			name = EasyJavaCompiler;
+			path = Easy_Java_Compiler;
+			sourceTree = "<group>";
+		};
+		65FCCEEF17F88876007FC7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				659E3BA0187CFE97002A0F96 /* Settings.bundle */,
+				65FCCEF017F88876007FC7E8 /* EasyJavaCompiler-Info.plist */,
+				65FCCEF417F88876007FC7E8 /* main.m */,
+				65FCCEF617F88876007FC7E8 /* EasyJavaCompiler-Prefix.pch */,
+				65FCCEFA17F88876007FC7E8 /* Default.png */,
+				65FCCEFC17F88876007FC7E8 /* Default@2x.png */,
+				65FCCEFE17F88876007FC7E8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65FCCF1517F88876007FC7E8 /* EasyJavaCompilerTests */ = {
+			isa = PBXGroup;
+			children = (
+				65FCCF1B17F88876007FC7E8 /* Easy_Java_CompilerTests.h */,
+				65FCCF1C17F88876007FC7E8 /* Easy_Java_CompilerTests.m */,
+				65FCCF1617F88876007FC7E8 /* Supporting Files */,
+			);
+			name = EasyJavaCompilerTests;
+			path = Easy_Java_CompilerTests;
+			sourceTree = "<group>";
+		};
+		65FCCF1617F88876007FC7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65FCCF1717F88876007FC7E8 /* EasyJavaCompilerTests-Info.plist */,
+				65FCCF1817F88876007FC7E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FCCEE417F88876007FC7E8 /* EasyJavaCompiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FCCF2017F88876007FC7E8 /* Build configuration list for PBXNativeTarget "EasyJavaCompiler" */;
+			buildPhases = (
+				65FCCEE117F88876007FC7E8 /* Sources */,
+				65FCCEE217F88876007FC7E8 /* Frameworks */,
+				65FCCEE317F88876007FC7E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyJavaCompiler;
+			productName = Easy_Java_Compiler;
+			productReference = 65FCCEE517F88876007FC7E8 /* EasyJavaCompiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65FCCF0D17F88876007FC7E8 /* EasyJavaCompilerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FCCF2317F88876007FC7E8 /* Build configuration list for PBXNativeTarget "EasyJavaCompilerTests" */;
+			buildPhases = (
+				65FCCF0917F88876007FC7E8 /* Sources */,
+				65FCCF0A17F88876007FC7E8 /* Frameworks */,
+				65FCCF0B17F88876007FC7E8 /* Resources */,
+				65FCCF0C17F88876007FC7E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FCCF1417F88876007FC7E8 /* PBXTargetDependency */,
+			);
+			name = EasyJavaCompilerTests;
+			productName = Easy_Java_CompilerTests;
+			productReference = 65FCCF0E17F88876007FC7E8 /* EasyJavaCompilerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FCCEDD17F88876007FC7E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EJC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrea Pacheco";
+			};
+			buildConfigurationList = 65FCCEE017F88876007FC7E8 /* Build configuration list for PBXProject "EasyJavaCompiler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 65FCCEDC17F88876007FC7E8;
+			productRefGroup = 65FCCEE617F88876007FC7E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FCCEE417F88876007FC7E8 /* EasyJavaCompiler */,
+				65FCCF0D17F88876007FC7E8 /* EasyJavaCompilerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65FCCEE317F88876007FC7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FCCEFB17F88876007FC7E8 /* Default.png in Resources */,
+				65FCCEFD17F88876007FC7E8 /* Default@2x.png in Resources */,
+				659F7A4817F9F28C00FC1484 /* 57x57.png in Resources */,
+				659F7A4917F9F2A000FC1484 /* EJC FX 114x114.png in Resources */,
+				659F7A4E17F9F49400FC1484 /* 72x72.png in Resources */,
+				659F7A5017F9F4A200FC1484 /* EJC FX 144x144.png in Resources */,
+				659F7A5217F9F4EE00FC1484 /* Default-Portrait~ipad.png in Resources */,
+				659F7A5417F9F51100FC1484 /* Default-Portrait@2x~ipad.png in Resources */,
+				659F7A5717F9FC3D00FC1484 /* Default-Landscape~ipad.png in Resources */,
+				659F7A5917F9FC5200FC1484 /* Default-Landscape@2x~ipad.png in Resources */,
+				6529AC0717FB9F0D00A3A05C /* AboutEJC.png in Resources */,
+				6529AC0D17FBB19900A3A05C /* About.png in Resources */,
+				657D175717FC75F70061458D /* cog_02@2x.png in Resources */,
+				657D175917FC76030061458D /* page_empty@2x.png in Resources */,
+				657D175B17FC766B0061458D /* pencil@2x.png in Resources */,
+				657D175F17FC79A10061458D /* cog_02.png in Resources */,
+				657D176017FC79A10061458D /* page_empty.png in Resources */,
+				657D176117FC79A10061458D /* pencil.png in Resources */,
+				657D176517FC7E080061458D /* letter_open.png in Resources */,
+				659E3BA1187CFE98002A0F96 /* Settings.bundle in Resources */,
+				6510787C18898A82002C1A8E /* Default-568h@2x.png in Resources */,
+				6510788D188A2B6A002C1A8E /* MainStoryboard_iPhone.storyboard in Resources */,
+				651078A0188C211C002C1A8E /* warning.png in Resources */,
+				65139B3E188C5C3100517979 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FCCF0B17F88876007FC7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FCCF1A17F88876007FC7E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65FCCF0C17F88876007FC7E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FCCEE117F88876007FC7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FCCEF517F88876007FC7E8 /* main.m in Sources */,
+				65FCCEF917F88876007FC7E8 /* EJCAppDelegate.m in Sources */,
+				65FCCF0817F88876007FC7E8 /* EJCViewController.m in Sources */,
+				65D8619318050EA6009EC825 /* EJCSendEmailViewController.m in Sources */,
+				65FF4CAD1809FE560074CAB2 /* EJCCompilerViewController.m in Sources */,
+				65F865EF1870979B0059A628 /* DocumentViewController.m in Sources */,
+				653FDF8C18712D8A00694C9E /* EasyJavaCompiler.xcdatamodeld in Sources */,
+				659E3B9E187CF6A9002A0F96 /* EJCEntry.m in Sources */,
+				65B0E62118830DDB0014F2C5 /* EJCDocument.m in Sources */,
+				65B0E62A188338870014F2C5 /* EJCConflictViewController.m in Sources */,
+				65B0E62D188339BC0014F2C5 /* EJCConflictEntry.m in Sources */,
+				65107893188AD690002C1A8E /* EJCEntryCell.m in Sources */,
+				65107896188BFBB3002C1A8E /* NSDate+FormattedString.m in Sources */,
+				651078A3188C2626002C1A8E /* EJCData.m in Sources */,
+				65A94532189EF9EB001B6782 /* NSData+CocoaDevUsersAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FCCF0917F88876007FC7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FCCF1D17F88876007FC7E8 /* Easy_Java_CompilerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FCCF1417F88876007FC7E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FCCEE417F88876007FC7E8 /* EasyJavaCompiler */;
+			targetProxy = 65FCCF1317F88876007FC7E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65FCCF1817F88876007FC7E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FCCF1917F88876007FC7E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FCCF1E17F88876007FC7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65FCCF1F17F88876007FC7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FCCF2117F88876007FC7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EasyJavaCompiler.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy_Java_Compiler/EasyJavaCompiler-Prefix.pch";
+				INFOPLIST_FILE = "Easy_Java_Compiler/EasyJavaCompiler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = EasyJavaCompiler;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65FCCF2217F88876007FC7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EasyJavaCompiler.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy_Java_Compiler/EasyJavaCompiler-Prefix.pch";
+				INFOPLIST_FILE = "Easy_Java_Compiler/EasyJavaCompiler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = EasyJavaCompiler;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65FCCF2417F88876007FC7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Easy_Java_Compiler.app/Easy_Java_Compiler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy_Java_Compiler/Easy_Java_Compiler-Prefix.pch";
+				INFOPLIST_FILE = "Easy_Java_CompilerTests/EasyJavaCompilerTests-Info.plist";
+				PRODUCT_NAME = EasyJavaCompilerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		65FCCF2517F88876007FC7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Easy_Java_Compiler.app/Easy_Java_Compiler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy_Java_Compiler/Easy_Java_Compiler-Prefix.pch";
+				INFOPLIST_FILE = "Easy_Java_CompilerTests/EasyJavaCompilerTests-Info.plist";
+				PRODUCT_NAME = EasyJavaCompilerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FCCEE017F88876007FC7E8 /* Build configuration list for PBXProject "EasyJavaCompiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FCCF1E17F88876007FC7E8 /* Debug */,
+				65FCCF1F17F88876007FC7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FCCF2017F88876007FC7E8 /* Build configuration list for PBXNativeTarget "EasyJavaCompiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FCCF2117F88876007FC7E8 /* Debug */,
+				65FCCF2217F88876007FC7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FCCF2317F88876007FC7E8 /* Build configuration list for PBXNativeTarget "EasyJavaCompilerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FCCF2417F88876007FC7E8 /* Debug */,
+				65FCCF2517F88876007FC7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		653FDF8A18712D8A00694C9E /* EasyJavaCompiler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				653FDF91187130C400694C9E /* EasyJavaCompiler 2.xcdatamodel */,
+				653FDF8B18712D8A00694C9E /* EasyJavaCompiler.xcdatamodel */,
+			);
+			currentVersion = 653FDF8B18712D8A00694C9E /* EasyJavaCompiler.xcdatamodel */;
+			name = EasyJavaCompiler.xcdatamodeld;
+			path = ../EasyJavaCompiler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65FCCEDD17F88876007FC7E8 /* Project object */;
+}
