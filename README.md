@@ -1,2 +1,2 @@
-# EasyJavaCompilar
+# EasyJavaCompiler
 Tesis
